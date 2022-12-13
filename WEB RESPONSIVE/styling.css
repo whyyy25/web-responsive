@@ -1,0 +1,144 @@
+* {
+  box-sizing : border-box;
+}
+
+body {
+  background-image: url('assets/kotapati.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.div1 {
+  text-align : justify;
+  background-color: black;
+  padding: 0px;
+}
+
+.div2 {
+  overflow : auto;
+}
+
+.div3 {
+  background-color : white;
+  text-align : center;
+  padding : 10px;
+  margin-top : 7px;
+}
+
+.div4 {
+  background-color : rgba(255, 255, 255, 0.642);
+  float : right;
+  width : 80%;
+  padding : 0 20px;
+}
+
+h1 {
+  font-family : monospace;
+  font-size : 55px;
+  color : white;
+  text-align : left;
+}
+
+h2 {
+  font-family : Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size : 30px;
+  text-align : center;
+}
+
+h3 {
+  font-family : cursive;
+  text-align : left;
+}
+
+h5 {
+  text-align : center;
+}
+
+.p1 {
+  font-family : cursive;
+  text-align : justify;
+}
+
+.p2 {
+  font-family :cursive;
+  font-size : 12px;
+  text-align : justify;
+ 
+}
+
+.p3 {
+  font-family : cursive;
+  text-align : center;
+  float : center;
+}
+
+.img1 {
+  width : 5%;
+  float : right;
+}
+
+.img2 {
+  width : 50%;
+  align-items : center;
+}
+
+.img3 {
+  width : 30%;
+  height : 100px;
+  float : left;
+}
+
+.img4 {
+  width : 40%;
+}
+
+.video1 {
+  width : 40%;
+}
+
+.center {
+  display : block;
+  margin-left : auto;
+  margin-right : auto;
+  width : 45%;
+}
+
+.main {
+  background-color : rgba(255, 255, 255, 0.642);
+  float : left;
+  width : 60%;
+  padding : 0 20px;
+}
+.menu {
+  float: left;
+  text-align: justify;
+}
+
+.menu a {
+  background-color : rgb(255, 181, 218);
+  padding : 10px;
+  margin-top : 7px;
+  display : block;
+  width : 100%;
+  color : black;
+}
+
+table, th, td {
+  border : solid black;
+  border-collapse : collapse;
+  padding : 10px;
+  width : 50%;
+  text-align : center;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width : 100%;
+  }
+}
